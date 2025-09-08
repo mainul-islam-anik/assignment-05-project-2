@@ -163,6 +163,7 @@ for(const call of calls){
             const card = copy.closest(".card")
         const serviceNumber = card.querySelector(".service-number").innerText
         alert(`Number is copied ${serviceNumber}`)
+        navigator.clipboard.writeText(serviceNumber)
             totalCopy = totalCopy + 1
             document.getElementById("total-copy").innerText = totalCopy
         })
