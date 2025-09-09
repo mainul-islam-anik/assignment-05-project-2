@@ -44,8 +44,8 @@
     <!-- main section -->
 
     <div class="py-14 bg-[#41ff6b1a]">
-        <div class="main md:w-[1150px] mx-auto">
-            <div class="card-section grid grid-cols-1 md:grid-cols-4  gap-6">
+        <div class="main md:w-[1150px] mx-auto md:flex gap-9">
+            <div class="card-section grid grid-cols-1 md:grid-cols-3  gap-9 ">
                 <div class="card shadow-lg p-[32px] bg-white">
                 <div class="flex justify-between items-center">
                 <div class=" p-3 bg-[#ffe3e2] rounded-2xl">
@@ -96,23 +96,7 @@
                 </div>
 
 
-                <!-- call history secction -->
-            <div class="call-history-section md:row-span-3 bg-white p-6 shadow-lg rounded-xl">
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center gap-2">
-                    <i class="fa-regular fa-clock"></i>
-                    <h1 class="font-bold text-xl">Call History</h1>
-                </div>
-                <button id="clear-btn" class="btn !bg-[#00a63e] !text-white !rounded-full">Clear</button>
-                </div>
-
-
-                <div id="history-container">
-                    
-                </div>
-                
-
-            </div>
+          
 
 
 
@@ -164,6 +148,27 @@
                 <button id="railway-call" class="call btn !bg-[#00a63e] !text-white !rounded-lg"><i class="fa-solid fa-phone"></i>Call</button>
             </div>
                 </div>   
+
+            </div>
+
+
+
+
+        <!-- call history secction -->
+            <div class="call-history-section bg-white p-6 shadow-lg rounded-xl">
+                <div class="flex items-center justify-between gap-8">
+                    <div class="flex items-center gap-2">
+                    <i class="fa-regular fa-clock"></i>
+                    <h1 class="font-bold text-xl">Call History</h1>
+                </div>
+                <button id="clear-btn" class="btn !bg-[#00a63e] !text-white !rounded-full">Clear</button>
+                </div>
+
+
+                <div id="history-container">
+                    
+                </div>
+                
 
             </div>
 
